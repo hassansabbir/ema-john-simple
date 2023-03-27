@@ -1,10 +1,16 @@
 .shop-container{
   display: grid;
   grid-template-columns: 4fr 1fr;
+  padding: 60px;
+  gap: 20px;
 }
 
 .products{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 30px;
+}
+
+.cartList{
+  text-align: center;
 }
