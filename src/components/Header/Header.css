@@ -1,0 +1,22 @@
+.header{
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.navbar{
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: inherit;
+}
+
+.navbar a:hover {
+  color: #FF9900;
+}
