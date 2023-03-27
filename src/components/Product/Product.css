@@ -1,0 +1,27 @@
+.card{
+  display: grid;
+  gap: 20px;
+  border: 2px solid gray;
+  padding: 7px;
+  border-radius: 10px 10px 0 0;
+}
+.card img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.cart-btn{
+  width: 100%;
+  background: #FFE0B3;
+  border-left: 2px;
+  border-top: 0;
+  border-right: 2px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.cart-btn:hover{
+  background: #f5b24f;
+}
